@@ -6,9 +6,12 @@
 //  Copyright © 2017 NSBeard. All rights reserved.
 //
 
-#import "LoginViewController.h"
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import "LoginViewController.h"
+#import "FEZAuth.h"
+
+
 
 @interface LoginViewController ()
 
@@ -43,7 +46,7 @@
                 [[[FBSDKGraphRequest alloc] initWithGraphPath:@"me"
                                                    parameters:@{@"fields": @"picture, name, email"}]
                  startWithCompletionHandler:^(FBSDKGraphRequestConnection *connection, id userinfo, NSError *error) {
-                     if (!error) {
+                     [FEZAuth signInWithFacebook:result.token.tokenString successCallback:^(FIRUser * _Nullable user) {
                          __weak typeof(self)weakSelf = self;
                          dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0ul);
                          dispatch_async(queue, ^(void) {
@@ -53,12 +56,9 @@
                                  NSLog(@"%@", userinfo);
                              });
                          });
-                         
-                     }
-                     else{
-                         
+                     } failureCallback:^(NSError * _Nullable error) {
                          NSLog(@"%@", [error localizedDescription]);
-                     }
+                     }];
                  }];
             } else {
                 NSLog(@"Login Cancel");

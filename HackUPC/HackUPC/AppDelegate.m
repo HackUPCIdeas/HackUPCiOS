@@ -5,11 +5,12 @@
 //  Created by Joan Molinas Ramon on 4/3/17.
 //  Copyright © 2017 NSBeard. All rights reserved.
 //
-
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import "AppDelegate.h"
 #import "Requests.h"
 #import "Performancer.h"
-#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import "ConnectorManager.h"
+#import "FEZManager.h"
 
 @interface AppDelegate ()
 
@@ -20,6 +21,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [[FBSDKApplicationDelegate sharedInstance] application:application
                              didFinishLaunchingWithOptions:launchOptions];
+    [[FEZManager sharedManager] configure];
+    if ([FBSDKAccessToken currentAccessToken]) {
+        [self startTabBar];
+        [ConnectorManager connectAllConnectors];
+    }
     
 //    [self testLogin];
 //    [self testCreatePerformancer];
@@ -42,6 +48,15 @@
 }
 
 #pragma mark - Private api
+
+- (void)startTabBar {
+    UIViewController *tabBarController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil]instantiateViewControllerWithIdentifier:@"TabBarController"];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    self.window.rootViewController = tabBarController;
+    [self.window makeKeyAndVisible];
+}
 
 - (void)testLogin {
     [Requests logInWithUserMail:@"joan@joan.com" password:@"123" withSuccess:^(id responseObject) {
