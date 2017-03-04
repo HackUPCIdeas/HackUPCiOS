@@ -10,6 +10,7 @@
 #import "FirebaseModel.h"
 
 @interface Post : NSObject <FirebaseModel>
+@property (nonatomic, strong) NSString *identifier;
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic, strong) NSString *desc;
 @property (nonatomic, strong) NSString *userID;

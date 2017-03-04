@@ -31,6 +31,7 @@
 		4E574C191E6B0142004F988D /* ConnectorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E574C181E6B0142004F988D /* ConnectorManager.m */; };
 		4E574C1C1E6B0195004F988D /* PostsConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E574C1B1E6B0195004F988D /* PostsConnector.m */; };
 		4E574C1E1E6B02B8004F988D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E574C1D1E6B02B8004F988D /* GoogleService-Info.plist */; };
+		4EB0E7C51E6B0812001C29D8 /* PostsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB0E7C41E6B0812001C29D8 /* PostsTableViewController.m */; };
 		7EE3BF3AACBE6B9C6DDFD298 /* Pods_HackUPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A80D1C47C69B3404ACE5828 /* Pods_HackUPC.framework */; };
 		96678F3B2AEFB30698C81BA7 /* Pods_HackUPCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457401523F4EBB80093B7255 /* Pods_HackUPCTests.framework */; };
 /* End PBXBuildFile section */
@@ -92,6 +93,8 @@
 		4E574C1B1E6B0195004F988D /* PostsConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PostsConnector.m; path = Connectors/PostsConnector.m; sourceTree = "<group>"; };
 		4E574C1D1E6B02B8004F988D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4EB0E7BF1E6B065A001C29D8 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Model/Constants.h; sourceTree = "<group>"; };
+		4EB0E7C31E6B0812001C29D8 /* PostsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PostsTableViewController.h; path = Controller/PostsTableViewController.h; sourceTree = "<group>"; };
+		4EB0E7C41E6B0812001C29D8 /* PostsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PostsTableViewController.m; path = Controller/PostsTableViewController.m; sourceTree = "<group>"; };
 		71F3CB0819997428A818B327 /* Pods-HackUPCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackUPCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackUPCTests/Pods-HackUPCTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9648E5525E9CF3761E84D405 /* Pods-HackUPC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackUPC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackUPC/Pods-HackUPC.debug.xcconfig"; sourceTree = "<group>"; };
 		C8A1EBA7EA7F05AB05F678E3 /* Pods-HackUPC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackUPC.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackUPC/Pods-HackUPC.release.xcconfig"; sourceTree = "<group>"; };
@@ -232,6 +235,8 @@
 				4E574BDD1E6A4777004F988D /* LoginViewController.m */,
 				4E574BE31E6A4D20004F988D /* RegisterViewController.h */,
 				4E574BE41E6A4D20004F988D /* RegisterViewController.m */,
+				4EB0E7C31E6B0812001C29D8 /* PostsTableViewController.h */,
+				4EB0E7C41E6B0812001C29D8 /* PostsTableViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -526,6 +531,7 @@
 				4E574BB61E6A44D1004F988D /* main.m in Sources */,
 				4E574BDE1E6A4777004F988D /* LoginViewController.m in Sources */,
 				4E574BF11E6A8149004F988D /* Performancer.m in Sources */,
+				4EB0E7C51E6B0812001C29D8 /* PostsTableViewController.m in Sources */,
 				4E574C091E6AF425004F988D /* FEZDatabaseConnector.m in Sources */,
 				4E574BE91E6A7FE2004F988D /* Requests.m in Sources */,
 				4E574BF51E6A817B004F988D /* User.m in Sources */,

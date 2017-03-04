@@ -10,7 +10,7 @@
 #import "Post.h"
 
 @interface PostsConnector : NSObject
-@property (nonatomic, strong, readonly) NSArray<Post *> *posts;
+@property (nonatomic, strong, readonly) NSMutableArray<Post *> *posts;
 
 + (instancetype)sharedConnector;
 - (void)connect;
