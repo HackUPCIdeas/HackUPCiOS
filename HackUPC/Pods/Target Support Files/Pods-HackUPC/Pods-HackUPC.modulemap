@@ -1,0 +1,6 @@
+framework module Pods_HackUPC {
+  umbrella header "Pods-HackUPC-umbrella.h"
+
+  export *
+  module * { export * }
+}

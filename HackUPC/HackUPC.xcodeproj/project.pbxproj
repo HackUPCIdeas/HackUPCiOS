@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E574BB61E6A44D1004F988D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E574BB51E6A44D1004F988D /* main.m */; };
+		4E574BB91E6A44D1004F988D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E574BB81E6A44D1004F988D /* AppDelegate.m */; };
+		4E574BBF1E6A44D1004F988D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E574BBD1E6A44D1004F988D /* Main.storyboard */; };
+		4E574BC11E6A44D1004F988D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E574BC01E6A44D1004F988D /* Assets.xcassets */; };
+		4E574BC41E6A44D1004F988D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E574BC21E6A44D1004F988D /* LaunchScreen.storyboard */; };
+		4E574BCF1E6A44D1004F988D /* HackUPCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E574BCE1E6A44D1004F988D /* HackUPCTests.m */; };
+		4E574BDE1E6A4777004F988D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E574BDD1E6A4777004F988D /* LoginViewController.m */; };
+		4E574BE11E6A4A47004F988D /* BorderRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E574BE01E6A4A47004F988D /* BorderRoundButton.m */; };
+		4E574BE51E6A4D20004F988D /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E574BE41E6A4D20004F988D /* RegisterViewController.m */; };
+		4E574BE91E6A7FE2004F988D /* Requests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E574BE81E6A7FE2004F988D /* Requests.m */; };
+		4E574BED1E6A8106004F988D /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E574BEC1E6A8106004F988D /* Post.m */; };
+		4E574BF11E6A8149004F988D /* Performancer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E574BF01E6A8149004F988D /* Performancer.m */; };
+		4E574BF51E6A817B004F988D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E574BF41E6A817B004F988D /* User.m */; };
+		4E574C081E6AF425004F988D /* FEZAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E574C031E6AF425004F988D /* FEZAuth.m */; };
+		4E574C091E6AF425004F988D /* FEZDatabaseConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E574C051E6AF425004F988D /* FEZDatabaseConnector.m */; };
+		4E574C0A1E6AF425004F988D /* FEZManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E574C071E6AF425004F988D /* FEZManager.m */; };
+		4E574C0E1E6AF559004F988D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E574C0D1E6AF559004F988D /* FBSDKLoginKit.framework */; };
+		4E574C101E6AF65C004F988D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E574C0F1E6AF65C004F988D /* FBSDKCoreKit.framework */; };
+		4E574C141E6AF6B4004F988D /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E574C111E6AF6B4004F988D /* AccountKit.framework */; };
+		4E574C151E6AF6B4004F988D /* AccountKitStrings.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E574C121E6AF6B4004F988D /* AccountKitStrings.bundle */; };
+		4E574C161E6AF6B4004F988D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E574C131E6AF6B4004F988D /* Bolts.framework */; };
+		7EE3BF3AACBE6B9C6DDFD298 /* Pods_HackUPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A80D1C47C69B3404ACE5828 /* Pods_HackUPC.framework */; };
+		96678F3B2AEFB30698C81BA7 /* Pods_HackUPCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457401523F4EBB80093B7255 /* Pods_HackUPCTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E574BCB1E6A44D1004F988D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E574BA91E6A44D1004F988D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E574BB01E6A44D1004F988D;
+			remoteInfo = HackUPC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A80D1C47C69B3404ACE5828 /* Pods_HackUPC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackUPC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		457401523F4EBB80093B7255 /* Pods_HackUPCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackUPCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C30B565D3A969BF70703AA7 /* Pods-HackUPCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackUPCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackUPCTests/Pods-HackUPCTests.release.xcconfig"; sourceTree = "<group>"; };
+		4E574BB11E6A44D1004F988D /* HackUPC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackUPC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E574BB51E6A44D1004F988D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E574BB71E6A44D1004F988D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E574BB81E6A44D1004F988D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E574BBE1E6A44D1004F988D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E574BC01E6A44D1004F988D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E574BC31E6A44D1004F988D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E574BC51E6A44D1004F988D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E574BCA1E6A44D1004F988D /* HackUPCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackUPCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E574BCE1E6A44D1004F988D /* HackUPCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackUPCTests.m; sourceTree = "<group>"; };
+		4E574BD01E6A44D1004F988D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E574BDC1E6A4777004F988D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Controller/LoginViewController.h; sourceTree = "<group>"; };
+		4E574BDD1E6A4777004F988D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Controller/LoginViewController.m; sourceTree = "<group>"; };
+		4E574BDF1E6A4A47004F988D /* BorderRoundButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BorderRoundButton.h; path = View/BorderRoundButton/BorderRoundButton.h; sourceTree = "<group>"; };
+		4E574BE01E6A4A47004F988D /* BorderRoundButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BorderRoundButton.m; path = View/BorderRoundButton/BorderRoundButton.m; sourceTree = "<group>"; };
+		4E574BE31E6A4D20004F988D /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterViewController.h; path = Controller/RegisterViewController.h; sourceTree = "<group>"; };
+		4E574BE41E6A4D20004F988D /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterViewController.m; path = Controller/RegisterViewController.m; sourceTree = "<group>"; };
+		4E574BE71E6A7FE2004F988D /* Requests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Requests.h; path = Model/Requests/Requests.h; sourceTree = "<group>"; };
+		4E574BE81E6A7FE2004F988D /* Requests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Requests.m; path = Model/Requests/Requests.m; sourceTree = "<group>"; };
+		4E574BEB1E6A8106004F988D /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Post.h; path = Model/Post/Post.h; sourceTree = "<group>"; };
+		4E574BEC1E6A8106004F988D /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Post.m; path = Model/Post/Post.m; sourceTree = "<group>"; };
+		4E574BEF1E6A8149004F988D /* Performancer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Performancer.h; path = Model/Performancer/Performancer.h; sourceTree = "<group>"; };
+		4E574BF01E6A8149004F988D /* Performancer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Performancer.m; path = Model/Performancer/Performancer.m; sourceTree = "<group>"; };
+		4E574BF31E6A817B004F988D /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = Model/User/User.h; sourceTree = "<group>"; };
+		4E574BF41E6A817B004F988D /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Model/User/User.m; sourceTree = "<group>"; };
+		4E574BF71E6A912E004F988D /* FirebaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirebaseModel.h; path = Model/Protocols/FirebaseModel.h; sourceTree = "<group>"; };
+		4E574C021E6AF425004F988D /* FEZAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FEZAuth.h; path = Firebase/FEZAuth.h; sourceTree = "<group>"; };
+		4E574C031E6AF425004F988D /* FEZAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FEZAuth.m; path = Firebase/FEZAuth.m; sourceTree = "<group>"; };
+		4E574C041E6AF425004F988D /* FEZDatabaseConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FEZDatabaseConnector.h; path = Firebase/FEZDatabaseConnector.h; sourceTree = "<group>"; };
+		4E574C051E6AF425004F988D /* FEZDatabaseConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FEZDatabaseConnector.m; path = Firebase/FEZDatabaseConnector.m; sourceTree = "<group>"; };
+		4E574C061E6AF425004F988D /* FEZManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FEZManager.h; path = Firebase/FEZManager.h; sourceTree = "<group>"; };
+		4E574C071E6AF425004F988D /* FEZManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FEZManager.m; path = Firebase/FEZManager.m; sourceTree = "<group>"; };
+		4E574C0D1E6AF559004F988D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = HackUPC/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		4E574C0F1E6AF65C004F988D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../../../Documents/FacebookSDKs-iOS-4.20.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		4E574C111E6AF6B4004F988D /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AccountKit.framework; path = "../../../../../Documents/FacebookSDKs-iOS-4.20.0/AccountKit.framework"; sourceTree = "<group>"; };
+		4E574C121E6AF6B4004F988D /* AccountKitStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AccountKitStrings.bundle; path = "../../../../../Documents/FacebookSDKs-iOS-4.20.0/AccountKitStrings.bundle"; sourceTree = "<group>"; };
+		4E574C131E6AF6B4004F988D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../../../Documents/FacebookSDKs-iOS-4.20.0/Bolts.framework"; sourceTree = "<group>"; };
+		71F3CB0819997428A818B327 /* Pods-HackUPCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackUPCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackUPCTests/Pods-HackUPCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9648E5525E9CF3761E84D405 /* Pods-HackUPC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackUPC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackUPC/Pods-HackUPC.debug.xcconfig"; sourceTree = "<group>"; };
+		C8A1EBA7EA7F05AB05F678E3 /* Pods-HackUPC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackUPC.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackUPC/Pods-HackUPC.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E574BAE1E6A44D1004F988D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E574C141E6AF6B4004F988D /* AccountKit.framework in Frameworks */,
+				4E574C151E6AF6B4004F988D /* AccountKitStrings.bundle in Frameworks */,
+				4E574C161E6AF6B4004F988D /* Bolts.framework in Frameworks */,
+				4E574C101E6AF65C004F988D /* FBSDKCoreKit.framework in Frameworks */,
+				4E574C0E1E6AF559004F988D /* FBSDKLoginKit.framework in Frameworks */,
+				7EE3BF3AACBE6B9C6DDFD298 /* Pods_HackUPC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E574BC71E6A44D1004F988D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96678F3B2AEFB30698C81BA7 /* Pods_HackUPCTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		069631B093BE99E0BD80C0C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E574C111E6AF6B4004F988D /* AccountKit.framework */,
+				4E574C121E6AF6B4004F988D /* AccountKitStrings.bundle */,
+				4E574C131E6AF6B4004F988D /* Bolts.framework */,
+				4E574C0D1E6AF559004F988D /* FBSDKLoginKit.framework */,
+				4E574C0F1E6AF65C004F988D /* FBSDKCoreKit.framework */,
+				2A80D1C47C69B3404ACE5828 /* Pods_HackUPC.framework */,
+				457401523F4EBB80093B7255 /* Pods_HackUPCTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		071544594237554CCDCE65E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9648E5525E9CF3761E84D405 /* Pods-HackUPC.debug.xcconfig */,
+				C8A1EBA7EA7F05AB05F678E3 /* Pods-HackUPC.release.xcconfig */,
+				71F3CB0819997428A818B327 /* Pods-HackUPCTests.debug.xcconfig */,
+				4C30B565D3A969BF70703AA7 /* Pods-HackUPCTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E574BA81E6A44D1004F988D = {
+			isa = PBXGroup;
+			children = (
+				4E574BB31E6A44D1004F988D /* HackUPC */,
+				4E574BCD1E6A44D1004F988D /* HackUPCTests */,
+				4E574BB21E6A44D1004F988D /* Products */,
+				071544594237554CCDCE65E5 /* Pods */,
+				069631B093BE99E0BD80C0C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4E574BB21E6A44D1004F988D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E574BB11E6A44D1004F988D /* HackUPC.app */,
+				4E574BCA1E6A44D1004F988D /* HackUPCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E574BB31E6A44D1004F988D /* HackUPC */ = {
+			isa = PBXGroup;
+			children = (
+				4E574C0B1E6AF457004F988D /* Connectors */,
+				4E574BB71E6A44D1004F988D /* AppDelegate.h */,
+				4E574BB81E6A44D1004F988D /* AppDelegate.m */,
+				4E574BF81E6AF3D6004F988D /* Firebase */,
+				4E574BDB1E6A4723004F988D /* Controller */,
+				4E574BD91E6A4716004F988D /* Model */,
+				4E574BDA1E6A471C004F988D /* View */,
+				4E574BBD1E6A44D1004F988D /* Main.storyboard */,
+				4E574BC01E6A44D1004F988D /* Assets.xcassets */,
+				4E574BC21E6A44D1004F988D /* LaunchScreen.storyboard */,
+				4E574BC51E6A44D1004F988D /* Info.plist */,
+				4E574BB41E6A44D1004F988D /* Supporting Files */,
+			);
+			path = HackUPC;
+			sourceTree = "<group>";
+		};
+		4E574BB41E6A44D1004F988D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E574BB51E6A44D1004F988D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E574BCD1E6A44D1004F988D /* HackUPCTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E574BCE1E6A44D1004F988D /* HackUPCTests.m */,
+				4E574BD01E6A44D1004F988D /* Info.plist */,
+			);
+			path = HackUPCTests;
+			sourceTree = "<group>";
+		};
+		4E574BD91E6A4716004F988D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E574BF61E6A9104004F988D /* Protocols */,
+				4E574BF21E6A816D004F988D /* User */,
+				4E574BEE1E6A811E004F988D /* Performancer */,
+				4E574BEA1E6A80F5004F988D /* Post */,
+				4E574BE61E6A7FCD004F988D /* Requests */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4E574BDA1E6A471C004F988D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E574BE21E6A4A4D004F988D /* BorderRoundButton */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4E574BDB1E6A4723004F988D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E574BDC1E6A4777004F988D /* LoginViewController.h */,
+				4E574BDD1E6A4777004F988D /* LoginViewController.m */,
+				4E574BE31E6A4D20004F988D /* RegisterViewController.h */,
+				4E574BE41E6A4D20004F988D /* RegisterViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4E574BE21E6A4A4D004F988D /* BorderRoundButton */ = {
+			isa = PBXGroup;
+			children = (
+				4E574BDF1E6A4A47004F988D /* BorderRoundButton.h */,
+				4E574BE01E6A4A47004F988D /* BorderRoundButton.m */,
+			);
+			name = BorderRoundButton;
+			sourceTree = "<group>";
+		};
+		4E574BE61E6A7FCD004F988D /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				4E574BE71E6A7FE2004F988D /* Requests.h */,
+				4E574BE81E6A7FE2004F988D /* Requests.m */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		4E574BEA1E6A80F5004F988D /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				4E574BEB1E6A8106004F988D /* Post.h */,
+				4E574BEC1E6A8106004F988D /* Post.m */,
+			);
+			name = Post;
+			sourceTree = "<group>";
+		};
+		4E574BEE1E6A811E004F988D /* Performancer */ = {
+			isa = PBXGroup;
+			children = (
+				4E574BEF1E6A8149004F988D /* Performancer.h */,
+				4E574BF01E6A8149004F988D /* Performancer.m */,
+			);
+			name = Performancer;
+			sourceTree = "<group>";
+		};
+		4E574BF21E6A816D004F988D /* User */ = {
+			isa = PBXGroup;
+			children = (
+				4E574BF31E6A817B004F988D /* User.h */,
+				4E574BF41E6A817B004F988D /* User.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		4E574BF61E6A9104004F988D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4E574BF71E6A912E004F988D /* FirebaseModel.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		4E574BF81E6AF3D6004F988D /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				4E574C021E6AF425004F988D /* FEZAuth.h */,
+				4E574C031E6AF425004F988D /* FEZAuth.m */,
+				4E574C041E6AF425004F988D /* FEZDatabaseConnector.h */,
+				4E574C051E6AF425004F988D /* FEZDatabaseConnector.m */,
+				4E574C061E6AF425004F988D /* FEZManager.h */,
+				4E574C071E6AF425004F988D /* FEZManager.m */,
+			);
+			name = Firebase;
+			sourceTree = "<group>";
+		};
+		4E574C0B1E6AF457004F988D /* Connectors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Connectors;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E574BB01E6A44D1004F988D /* HackUPC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E574BD31E6A44D1004F988D /* Build configuration list for PBXNativeTarget "HackUPC" */;
+			buildPhases = (
+				AC33AFF824ED993F543DB604 /* [CP] Check Pods Manifest.lock */,
+				4E574BAD1E6A44D1004F988D /* Sources */,
+				4E574BAE1E6A44D1004F988D /* Frameworks */,
+				4E574BAF1E6A44D1004F988D /* Resources */,
+				CF71510D2B17D37FE1346CE5 /* [CP] Embed Pods Frameworks */,
+				F7F25FDEEA5F289EA5E18D22 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackUPC;
+			productName = HackUPC;
+			productReference = 4E574BB11E6A44D1004F988D /* HackUPC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E574BC91E6A44D1004F988D /* HackUPCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E574BD61E6A44D1004F988D /* Build configuration list for PBXNativeTarget "HackUPCTests" */;
+			buildPhases = (
+				C574DD2FAC8322D533B3C0C1 /* [CP] Check Pods Manifest.lock */,
+				4E574BC61E6A44D1004F988D /* Sources */,
+				4E574BC71E6A44D1004F988D /* Frameworks */,
+				4E574BC81E6A44D1004F988D /* Resources */,
+				D3245B9782D593D37888FE14 /* [CP] Embed Pods Frameworks */,
+				ECC2361AD202823C047E83B1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E574BCC1E6A44D1004F988D /* PBXTargetDependency */,
+			);
+			name = HackUPCTests;
+			productName = HackUPCTests;
+			productReference = 4E574BCA1E6A44D1004F988D /* HackUPCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E574BA91E6A44D1004F988D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = NSBeard;
+				TargetAttributes = {
+					4E574BB01E6A44D1004F988D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U9QF88MGC2;
+						ProvisioningStyle = Automatic;
+					};
+					4E574BC91E6A44D1004F988D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U9QF88MGC2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E574BB01E6A44D1004F988D;
+					};
+				};
+			};
+			buildConfigurationList = 4E574BAC1E6A44D1004F988D /* Build configuration list for PBXProject "HackUPC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E574BA81E6A44D1004F988D;
+			productRefGroup = 4E574BB21E6A44D1004F988D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E574BB01E6A44D1004F988D /* HackUPC */,
+				4E574BC91E6A44D1004F988D /* HackUPCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E574BAF1E6A44D1004F988D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E574BC41E6A44D1004F988D /* LaunchScreen.storyboard in Resources */,
+				4E574BC11E6A44D1004F988D /* Assets.xcassets in Resources */,
+				4E574BBF1E6A44D1004F988D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E574BC81E6A44D1004F988D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC33AFF824ED993F543DB604 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C574DD2FAC8322D533B3C0C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF71510D2B17D37FE1346CE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackUPC/Pods-HackUPC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3245B9782D593D37888FE14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackUPCTests/Pods-HackUPCTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECC2361AD202823C047E83B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackUPCTests/Pods-HackUPCTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7F25FDEEA5F289EA5E18D22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackUPC/Pods-HackUPC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E574BAD1E6A44D1004F988D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E574BE51E6A4D20004F988D /* RegisterViewController.m in Sources */,
+				4E574BE11E6A4A47004F988D /* BorderRoundButton.m in Sources */,
+				4E574BB91E6A44D1004F988D /* AppDelegate.m in Sources */,
+				4E574C081E6AF425004F988D /* FEZAuth.m in Sources */,
+				4E574BB61E6A44D1004F988D /* main.m in Sources */,
+				4E574BDE1E6A4777004F988D /* LoginViewController.m in Sources */,
+				4E574BF11E6A8149004F988D /* Performancer.m in Sources */,
+				4E574C091E6AF425004F988D /* FEZDatabaseConnector.m in Sources */,
+				4E574BE91E6A7FE2004F988D /* Requests.m in Sources */,
+				4E574BF51E6A817B004F988D /* User.m in Sources */,
+				4E574BED1E6A8106004F988D /* Post.m in Sources */,
+				4E574C0A1E6AF425004F988D /* FEZManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E574BC61E6A44D1004F988D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E574BCF1E6A44D1004F988D /* HackUPCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E574BCC1E6A44D1004F988D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E574BB01E6A44D1004F988D /* HackUPC */;
+			targetProxy = 4E574BCB1E6A44D1004F988D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E574BBD1E6A44D1004F988D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E574BBE1E6A44D1004F988D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E574BC21E6A44D1004F988D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E574BC31E6A44D1004F988D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E574BD11E6A44D1004F988D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E574BD21E6A44D1004F988D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E574BD41E6A44D1004F988D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9648E5525E9CF3761E84D405 /* Pods-HackUPC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U9QF88MGC2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HackUPC",
+					"~/Documents/FacebookSDKs-iOS-4.20.0/",
+				);
+				INFOPLIST_FILE = HackUPC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NSBeard.HackUPC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E574BD51E6A44D1004F988D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8A1EBA7EA7F05AB05F678E3 /* Pods-HackUPC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U9QF88MGC2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HackUPC",
+					"~/Documents/FacebookSDKs-iOS-4.20.0/",
+				);
+				INFOPLIST_FILE = HackUPC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NSBeard.HackUPC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4E574BD71E6A44D1004F988D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71F3CB0819997428A818B327 /* Pods-HackUPCTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U9QF88MGC2;
+				INFOPLIST_FILE = HackUPCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NSBeard.HackUPCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackUPC.app/HackUPC";
+			};
+			name = Debug;
+		};
+		4E574BD81E6A44D1004F988D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C30B565D3A969BF70703AA7 /* Pods-HackUPCTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U9QF88MGC2;
+				INFOPLIST_FILE = HackUPCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NSBeard.HackUPCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackUPC.app/HackUPC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E574BAC1E6A44D1004F988D /* Build configuration list for PBXProject "HackUPC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E574BD11E6A44D1004F988D /* Debug */,
+				4E574BD21E6A44D1004F988D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E574BD31E6A44D1004F988D /* Build configuration list for PBXNativeTarget "HackUPC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E574BD41E6A44D1004F988D /* Debug */,
+				4E574BD51E6A44D1004F988D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E574BD61E6A44D1004F988D /* Build configuration list for PBXNativeTarget "HackUPCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E574BD71E6A44D1004F988D /* Debug */,
+				4E574BD81E6A44D1004F988D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E574BA91E6A44D1004F988D /* Project object */;
+}
