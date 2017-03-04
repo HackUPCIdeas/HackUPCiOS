@@ -91,6 +91,7 @@
 		4E574C1A1E6B0195004F988D /* PostsConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PostsConnector.h; path = Connectors/PostsConnector.h; sourceTree = "<group>"; };
 		4E574C1B1E6B0195004F988D /* PostsConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PostsConnector.m; path = Connectors/PostsConnector.m; sourceTree = "<group>"; };
 		4E574C1D1E6B02B8004F988D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4EB0E7BF1E6B065A001C29D8 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Model/Constants.h; sourceTree = "<group>"; };
 		71F3CB0819997428A818B327 /* Pods-HackUPCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackUPCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackUPCTests/Pods-HackUPCTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9648E5525E9CF3761E84D405 /* Pods-HackUPC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackUPC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackUPC/Pods-HackUPC.debug.xcconfig"; sourceTree = "<group>"; };
 		C8A1EBA7EA7F05AB05F678E3 /* Pods-HackUPC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackUPC.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackUPC/Pods-HackUPC.release.xcconfig"; sourceTree = "<group>"; };
@@ -211,6 +212,7 @@
 				4E574BEE1E6A811E004F988D /* Performancer */,
 				4E574BEA1E6A80F5004F988D /* Post */,
 				4E574BE61E6A7FCD004F988D /* Requests */,
+				4EB0E7BF1E6B065A001C29D8 /* Constants.h */,
 			);
 			name = Model;
 			sourceTree = "<group>";

@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Post.h"
 
 @interface PostsConnector : NSObject
+@property (nonatomic, strong, readonly) NSArray<Post *> *posts;
 
++ (instancetype)sharedConnector;
+- (void)connect;
 @end

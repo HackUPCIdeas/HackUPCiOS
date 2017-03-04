@@ -7,9 +7,10 @@
 //
 
 #import "ConnectorManager.h"
+#import "PostsConnector.h"
 
 @implementation ConnectorManager
 + (void)connectAllConnectors {
-    
+    [[PostsConnector sharedConnector] connect];
 }
 @end

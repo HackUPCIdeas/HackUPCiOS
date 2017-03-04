@@ -10,7 +10,7 @@
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
 #import "LoginViewController.h"
 #import "FEZAuth.h"
-
+#import "ConnectorManager.h"
 
 
 @interface LoginViewController ()
@@ -52,6 +52,7 @@
                          dispatch_async(queue, ^(void) {
                              dispatch_async(dispatch_get_main_queue(), ^{
                                  __strong typeof(weakSelf)strongSelf = weakSelf;
+                                 [ConnectorManager connectAllConnectors];
                                  [strongSelf presentTab];
                                  NSLog(@"%@", userinfo);
                              });
